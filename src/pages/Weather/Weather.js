@@ -50,7 +50,7 @@ const Weather = () => {
       </div>
       <Row justify='end'>
         <Col span={3}>
-          <Paragraph type='secondary'>By Ana Iloki Lewis</Paragraph>
+          {/* <Paragraph type='secondary'>By Ana Iloki Lewis</Paragraph> */}
         </Col>
       </Row>
     </div>

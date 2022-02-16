@@ -14,16 +14,17 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const onSearch = async (values) => {
-    if (values === '') {
-      dispatch(setCities([]));
-      return;
-    }
     if (value === '') {
       notification['warning']({
         description: 'Please write a city',
       });
       return;
     }
+    if (values === '') {
+      dispatch(setCities([]));
+      return;
+    }
+
     dispatch(getCities());
     const config = {
       method: METHOD_GET,

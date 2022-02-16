@@ -135,13 +135,13 @@ function ShowIconWeather({ type }) {
     <>
       {type === 'lc' && (
         <img src='https://img.icons8.com/color/96/000000/partly-cloudy-day--v1.png' />
-        // <img src='https://img.icons8.com/color/96/000000/cloud.png' />
       )}
       {type === 'c' && (
         <img src='https://img.icons8.com/color/96/000000/summer--v1.png' />
       )}
       {type === 'hc' && (
-        <img src='https://img.icons8.com/dusk/96/000000/clouds.png' />
+        // <img src='https://img.icons8.com/dusk/96/000000/clouds.png' />
+        <img src='https://img.icons8.com/color/96/000000/cloud.png' />
       )}
       {type === 'lr' && (
         <img src='https://img.icons8.com/color/96/000000/light-rain--v2.png' />
@@ -151,6 +151,18 @@ function ShowIconWeather({ type }) {
       )}
       {type === 'hr' && (
         <img src='https://img.icons8.com/color/96/000000/downpour--v1.png' />
+      )}
+      {type === 'sn' && (
+        <img src='https://img.icons8.com/color/96/000000/snow--v1.png' />
+      )}
+      {type === 'sl' && (
+        <img src='https://img.icons8.com/color/96/000000/sleet.png' />
+      )}
+      {type === 'h' && (
+        <img src='https://img.icons8.com/color/96/000000/hail.png' />
+      )}
+      {type === 't' && (
+        <img src='https://img.icons8.com/color/96/000000/storm--v1.png' />
       )}
     </>
   );
