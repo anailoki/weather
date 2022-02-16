@@ -1,0 +1,40 @@
+@import '../../scss/index.scss';
+
+.info-weather {
+  margin-bottom: 25px;
+  .text-center {
+    text-align: center;
+  }
+  .title {
+    font-weight: 700;
+  }
+  .celcius {
+    font-size: 34px;
+  }
+  .container-left {
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    padding-right: 30px;
+  }
+
+  .container-right {
+    padding-left: 20px;
+  }
+
+  .container-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .description {
+    font-size: 20px;
+    color: #747070;
+  }
+
+  .border-top {
+    border-top: 2px solid;
+    color: $font-grey-light;
+  }
+}
